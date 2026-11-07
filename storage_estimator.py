@@ -8,8 +8,8 @@ def estimate_storage(num_files, avg_size_mb):
 
 def main():
     print("Storage Estimator")
-    num_files = int(input("Number of files: "))
-    avg_size_mb = float(input("Average size per file (MB): "))
+    num_files = int(input("Enter number of files: "))
+    avg_size_mb = float(input("Average size per file is (MB): "))
 
     total_mb = estimate_storage(num_files, avg_size_mb)
     print("Total:", total_mb, "MB")
