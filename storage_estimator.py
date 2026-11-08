@@ -13,7 +13,7 @@ def main():
 
     total_mb = estimate_storage(num_files, avg_size_mb)
     print("Total:", total_mb, "MB")
-    print("In GB:", total_mb / 1024, "GB")
+    print("In GB:", round(total_mb / 1024,2), "GB")
 
 
 if __name__ == "__main__":
